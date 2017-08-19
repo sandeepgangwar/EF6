@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "DomainClasses\Cl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModels\DataModel.csproj", "{F8F579DA-5D41-410E-BA46-7661985396AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDMXFromDB", "EDMXFromDB\EDMXFromDB.csproj", "{A69F635B-98CF-4773-888F-0361DB308C62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F8F579DA-5D41-410E-BA46-7661985396AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8F579DA-5D41-410E-BA46-7661985396AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8F579DA-5D41-410E-BA46-7661985396AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A69F635B-98CF-4773-888F-0361DB308C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A69F635B-98CF-4773-888F-0361DB308C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A69F635B-98CF-4773-888F-0361DB308C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A69F635B-98CF-4773-888F-0361DB308C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
