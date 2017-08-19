@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDMXFromDB", "EDMXFromDB\ED
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeModelFromDb", "CodeModelFromDb\CodeModelFromDb.csproj", "{EE9EE599-8B59-4175-921A-CCCD5112D964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{1B74FBB4-D585-4A37-835B-30C217D1BCBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{EE9EE599-8B59-4175-921A-CCCD5112D964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE9EE599-8B59-4175-921A-CCCD5112D964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE9EE599-8B59-4175-921A-CCCD5112D964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B74FBB4-D585-4A37-835B-30C217D1BCBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B74FBB4-D585-4A37-835B-30C217D1BCBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B74FBB4-D585-4A37-835B-30C217D1BCBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B74FBB4-D585-4A37-835B-30C217D1BCBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

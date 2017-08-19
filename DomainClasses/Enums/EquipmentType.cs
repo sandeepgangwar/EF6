@@ -8,5 +8,7 @@ namespace Classes.Enums
 {
     public enum EquipmentType
     {
+        Tool,
+        Weapon
     }
 }
