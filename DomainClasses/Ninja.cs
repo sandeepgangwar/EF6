@@ -14,5 +14,6 @@ namespace Classes
         public Clan Clan { get; set; }
            public int  ClanId { get; set; }
         public List<NinjaEquipment> EquipmentsOwned { get; set; }
+        public DateTime DateOfBirth { get; set; }
     }
 }
