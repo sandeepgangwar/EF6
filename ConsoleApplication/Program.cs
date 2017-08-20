@@ -15,8 +15,26 @@ namespace ConsoleApplication
         static void Main(string[] args)
         {
             Database.SetInitializer(new NullDatabaseInitializer<NinjaContext>());
-            QueryToLoadRelatedData();
+            TestLocalDate();
             Console.ReadKey();
+        }
+
+        private static void TestLocalDate()
+        {
+            using (var context = new NinjaContext())
+            {
+                context.Ninjas.Add(new Ninja
+                {
+                    DateOfBirth = new DateTime(1980, 1, 1),
+                    ClanId = 1,
+                    Name = "Dummy",
+                    ServedInOniwaban = false
+                });
+               
+                Console.WriteLine(context.Ninjas.Local.Count);
+                context.SaveChanges();
+                Console.WriteLine(context.Ninjas.Local.Count);
+            }
         }
 
         private static void QueryToLoadRelatedData()
