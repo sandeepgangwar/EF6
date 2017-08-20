@@ -1,4 +1,5 @@
-﻿ using System;
+﻿using DomainClasses.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Classes
 {
-    public class Ninja
+    public class Ninja:IModificationHistory
     {
         public Ninja()
         {
@@ -20,5 +21,8 @@ namespace Classes
         public int  ClanId { get; set; }
         public List<NinjaEquipment> EquipmentsOwned { get; set; }
         public DateTime DateOfBirth { get; set; }
+        public DateTime DateCreated { get; set; }
+        public DateTime DateModified { get; set; }
+        public bool IsDirty { get; set; }
     }
 }

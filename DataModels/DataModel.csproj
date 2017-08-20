@@ -49,6 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataHelpers.cs" />
     <Compile Include="Migrations\201708191011363_Initial.cs" />
     <Compile Include="Migrations\201708191011363_Initial.Designer.cs">
       <DependentUpon>201708191011363_Initial.cs</DependentUpon>
@@ -56,6 +57,10 @@
     <Compile Include="Migrations\201708191037486_AddBithdayToNinja.cs" />
     <Compile Include="Migrations\201708191037486_AddBithdayToNinja.Designer.cs">
       <DependentUpon>201708191037486_AddBithdayToNinja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201708191551080_AddedModificationHistory.cs" />
+    <Compile Include="Migrations\201708191551080_AddedModificationHistory.Designer.cs">
+      <DependentUpon>201708191551080_AddedModificationHistory.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="NinjaContext.cs" />
@@ -79,6 +84,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201708191037486_AddBithdayToNinja.resx">
       <DependentUpon>201708191037486_AddBithdayToNinja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201708191551080_AddedModificationHistory.resx">
+      <DependentUpon>201708191551080_AddedModificationHistory.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

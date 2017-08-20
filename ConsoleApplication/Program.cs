@@ -23,7 +23,11 @@ namespace ConsoleApplication
         {
             using (var context = new NinjaContext())
             {
-                var ninja = context.Ninjas.Where(n=>n.Id == 11).Include(p=>p.EquipmentsOwned).ToList();
+                var ninja = context.Ninjas.Find(11);
+                foreach (var equipment in ninja.EquipmentsOwned)
+                {
+                    Console.WriteLine(equipment.Name);
+                }
             }
         }
         private static void InsertWithRelatedData()
